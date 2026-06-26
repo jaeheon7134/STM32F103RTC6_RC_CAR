@@ -1,0 +1,34 @@
+# STM32CubeIDE / GCC build output
+Debug/
+Release/
+
+
+# Generic embedded build artifacts
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.hex
+*.bin
+
+# Keep distributable firmware files in Debug_result tracked
+!Debug_result/
+!Debug_result/*.elf
+!Debug_result/*.hex
+
+# IDE/editor local settings
+.vscode/
+.idea/
+*.code-workspace
+.settings/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
